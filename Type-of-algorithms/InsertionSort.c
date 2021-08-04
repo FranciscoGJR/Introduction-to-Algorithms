@@ -7,9 +7,10 @@ void InsertionSort(int size, int list[]){
         while(i > -1 && list[i] > key){
             list[i + 1] = list[i];
             i = i -1;
-            }
-        list[i + 1] = key;
         }
+
+        list[i + 1] = key;
+    }
 }
 
 
